@@ -6,7 +6,7 @@ pipeline{
   stages {
     stage("Test"){
 	steps{
-	  sh "python3 -m unittest discover"
+	  sh "/usr/bin/python3 -m unittest discover"
 	}
     }
   }
